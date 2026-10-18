@@ -1,0 +1,66 @@
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(250, 236, 219);
+}
+#switch
+{
+    background-color: rgb(3, 9, 14);
+    color: aliceblue;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+header ul li{
+    margin: 5px;
+}
+body{
+    background-color: aliceblue;
+}
+
+
+
+.about-content {
+    display: flex;
+    gap: 20px;
+}
+
+#core_skills
+{
+  column-count: 3;
+
+}
+
+.active{
+    background-color: black;
+    color: aliceblue;
+}
+
+.headeractive{
+    background-color: rgb(65, 43, 43);
+}
+
+@media (max-width: 720px){
+    h1{
+        font-size: 20px;
+    }
+    img{
+        width: 150px;
+        height: 200px;
+    }
+    header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+}
